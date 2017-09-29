@@ -19,7 +19,7 @@ class Emoji {
      * Get the Emojis from emoji.php
      * @return array
      */
-    private function getEmojis() : array
+    public function getEmojis() : array
     {
         return require("Emojis/emoji.php");
     }
